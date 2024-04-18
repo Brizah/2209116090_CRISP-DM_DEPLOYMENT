@@ -5,7 +5,7 @@ import seaborn as sns
 import joblib
 import numpy as np
 
-st.title('Online Chess game Analysis & Prediction Results')
+st.title('World food production analysis & prediction results')
 
 url = 'Data_Cleaned.csv'
 df = pd.read_csv(url)
